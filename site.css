@@ -2,7 +2,8 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif !important;
-	background-color: #FFF;
+	background-color: #DDD;
+	color: #444;
 	font-size: 16px;
 	font-weight: 300;
 	font-style: normal;
@@ -18,7 +19,7 @@ body {
 header {
 	border-bottom: 1px solid #AAA;
 	color: #050E1A;
-	background-color: rgb(245, 245, 245);
+	background-color: #FFF;
 	height: 110px;
 }
 
