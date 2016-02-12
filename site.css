@@ -21,6 +21,7 @@ header {
 	background-color: #DDD;
 	color: #444;
 	height: 110px;
+	text-shadow: rgb(245, 245, 245) 0px 2px 1px;
 }
 
 header div {
