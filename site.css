@@ -16,7 +16,7 @@ body {
 	-webkit-background-size: auto;
 }
 
-header {
+body header {
 	border-bottom: 1px solid #AAA;
 	background-color: #DDD;
 	color: #444;
@@ -24,31 +24,32 @@ header {
 	text-shadow: rgb(245, 245, 245) 0px 2px 1px;
 }
 
-header div {
+body header div {
 	height: 110px;
 	max-width: 800px;
 	margin: 0 auto;
 }
 
-header div h1 {
+body header div h1 {
 	display: inline-block;
 	line-height: 110px;
 	vertical-align: middle;
 	padding: 0px;
-	margin: 0px;
+	margin: 0px 0px 0px 20px;
 	font-style: normal;
 	text-transform: uppercase;
-	font-weight: 100;
+	font-weight: 300;
+	font-size: 20px;
 }
 
-header div span#pinned {
+body header div span#pinned {
 	position: relative;
 	float: right;
-	margin-top: 45px;
+	margin: 45px 20px 0px 0px;
 }
 
-header div span#pinned a {
-	margin-left: 20px;
+body header div span#pinned a {
+	margin-left: 10px;
 	font-size: 20px;
 	text-decoration: none;
 	color: #444;
@@ -60,9 +61,27 @@ main {
 	text-shadow: rgb(255, 255, 255) 0px 2px 1px;
 }
 
-main section {
+article {
 	max-width: 800px;
 	margin: 0 auto;
+	padding: 20px;
+}
+
+article header {
+	border-bottom: 1px solid #AAA;
+	background-color: #FFF;
+	color: #444;
+	height: 25px;
+}
+
+article h2 {
+	font-size: 20px;
+}
+
+article a {
+	color: #488BA1;
+	text-decoration: none;
+	font-weight: 300;
 }
 
 footer {
