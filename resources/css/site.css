@@ -22,6 +22,7 @@ body header {
 	color: #666;
 	height: 100px;
 	text-shadow: none;
+	width: 100%;
 }
 
 body header div {
@@ -30,7 +31,7 @@ body header div {
 	margin: 0 auto;
 }
 
-body header div h1 {
+body header div h1#pagetitle {
 	display: inline-block;
 	line-height: 100px;
 	vertical-align: middle;
@@ -42,19 +43,19 @@ body header div h1 {
 	font-size: 1.5em;
 }
 
-body header div h1 a {
+body header div h1#pagetitle a {
         text-decoration: none;
 	color: #666;
 }
 
-body header div span#pinned {
+body header div span#pagenav {
 	position: relative;
 	float: right;
 	line-height: 100px;
 	margin: 0px 10px 0px 0px;
 }
 
-body header div span#pinned a {
+body header div span#pagenav a {
 	margin-left: 10px;
 	font-size: 1.5em;
 	text-decoration: none;
