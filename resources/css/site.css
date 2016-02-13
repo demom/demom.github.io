@@ -6,7 +6,7 @@ body {
 	font-weight: 300;
 	font-style: normal;
 	color: #050E1A;
-	background-color: #FFF;
+	background-color: #F6F6F6;
 	text-rendering: optimizelegibility;
 	letter-spacing: 1px;
 	line-height: 25px;
@@ -17,46 +17,46 @@ body {
 }
 
 body header {
-	border-bottom: 1px solid #AAA;
-	background-color: #DDD;
-	color: #444;
-	height: 110px;
-	text-shadow: rgb(245, 245, 245) 0px 2px 1px;
+	border-bottom: 1px solid #DDD;
+	background-color: #FAFAFA;
+	color: #666;
+	height: 50px;
+	text-shadow: none;
 }
 
 body header div {
-	height: 110px;
+	height: 50px;
 	max-width: 800px;
 	margin: 0 auto;
 }
 
 body header div h1 {
 	display: inline-block;
-	line-height: 110px;
+	line-height: 50px;
 	vertical-align: middle;
 	padding: 0px;
 	margin: 0px 0px 0px 20px;
 	font-style: normal;
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 body header div span#pinned {
 	position: relative;
 	float: right;
-	margin: 45px 20px 0px 0px;
+	margin: 14px 20px 0px 0px;
 }
 
 body header div span#pinned a {
 	margin-left: 10px;
-	font-size: 20px;
+	font-size: 16px;
 	text-decoration: none;
 	color: #444;
 }
 
 main {
-	padding-top: 20px;
+	padding-top: 10px;
 	border-top: 1px solid #FFF;
 	text-shadow: rgb(255, 255, 255) 0px 2px 1px;
 }
@@ -69,13 +69,21 @@ article {
 
 article header {
 	border-bottom: 1px solid #AAA;
-	background-color: #FFF;
+	background-color: #F6F6F6;
 	color: #444;
 	height: 25px;
+	text-shadow: none;
+}
+
+article h1 {
+	margin: 0px;
+	font-size: 25px;
+	font-weight: 300;
 }
 
 article h2 {
 	font-size: 20px;
+	font-weight: 300;
 }
 
 article a {
