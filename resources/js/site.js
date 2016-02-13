@@ -1,6 +1,6 @@
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 100) {
+  if (y > 150) {
     $('#pageheader').css('position', 'fixed');
     $('#pageheader').css('height', '50px');
     $('#pagetitle').css('line-height', '50px');
