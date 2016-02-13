@@ -16,7 +16,7 @@ body {
 	-webkit-background-size: auto;
 }
 
-body header#siteheader {
+body header#pageheader {
 	border-bottom: 1px solid #DDD;
 	background-color: #FAFAFA;
 	color: #666;
@@ -26,13 +26,13 @@ body header#siteheader {
         top: 0px;
 }
 
-body header#siteheader div {
+body header#pageheader div {
 	height: 100%;
 	max-width: 800px;
 	margin: 0 auto;
 }
 
-body header#siteheader div h1#pagetitle {
+body header#pageheader div h1#pagetitle {
 	display: inline-block;
 	line-height: 100px;
 	vertical-align: middle;
@@ -44,19 +44,19 @@ body header#siteheader div h1#pagetitle {
 	font-size: 1.5em;
 }
 
-body header#siteheader div h1#pagetitle a {
+body header#pageheader div h1#pagetitle a {
         text-decoration: none;
 	color: #666;
 }
 
-body header#siteheader div span#pagenav {
+body header#pageheader div span#pagenav {
 	position: relative;
 	float: right;
 	line-height: 100px;
 	margin: 0px 10px 0px 0px;
 }
 
-body header#siteheader div span#pagenav a {
+body header#pageheader div span#pagenav a {
 	margin-left: 10px;
 	font-size: 1.5em;
 	text-decoration: none;
