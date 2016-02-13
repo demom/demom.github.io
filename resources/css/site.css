@@ -42,10 +42,16 @@ body header div h1 {
 	font-size: 18px;
 }
 
+body header div h1 a {
+        text-decoration: none;
+	color: #666;
+}
+
 body header div span#pinned {
 	position: relative;
 	float: right;
-	margin: 14px 20px 0px 0px;
+	line-height: 50px;
+	margin: 0px 20px 0px 0px;
 }
 
 body header div span#pinned a {
