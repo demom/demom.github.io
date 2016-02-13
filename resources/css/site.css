@@ -20,26 +20,26 @@ body header {
 	border-bottom: 1px solid #DDD;
 	background-color: #FAFAFA;
 	color: #666;
-	height: 50px;
+	height: 100px;
 	text-shadow: none;
 }
 
 body header div {
-	height: 50px;
+	height: 100%;
 	max-width: 800px;
 	margin: 0 auto;
 }
 
 body header div h1 {
 	display: inline-block;
-	line-height: 50px;
+	line-height: 100px;
 	vertical-align: middle;
 	padding: 0px;
-	margin: 0px 0px 0px 20px;
+	margin: 0px 0px 0px 10px;
 	font-style: normal;
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 1.5em;
 }
 
 body header div h1 a {
@@ -50,13 +50,13 @@ body header div h1 a {
 body header div span#pinned {
 	position: relative;
 	float: right;
-	line-height: 50px;
-	margin: 0px 20px 0px 0px;
+	line-height: 100px;
+	margin: 0px 10px 0px 0px;
 }
 
 body header div span#pinned a {
 	margin-left: 10px;
-	font-size: 16px;
+	font-size: 1.5em;
 	text-decoration: none;
 	color: #444;
 }
@@ -70,7 +70,7 @@ main {
 article {
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 10px;
 }
 
 article header {
