@@ -16,22 +16,23 @@ body {
 	-webkit-background-size: auto;
 }
 
-body header {
+body header#pageheader {
 	border-bottom: 1px solid #DDD;
 	background-color: #FAFAFA;
 	color: #666;
 	height: 100px;
 	text-shadow: none;
 	width: 100%;
+        top: 0px;
 }
 
-body header div {
+body header#pageheader div {
 	height: 100%;
 	max-width: 800px;
 	margin: 0 auto;
 }
 
-body header div h1#pagetitle {
+body header#pageheader div h1#pagetitle {
 	display: inline-block;
 	line-height: 100px;
 	vertical-align: middle;
@@ -43,19 +44,19 @@ body header div h1#pagetitle {
 	font-size: 1.5em;
 }
 
-body header div h1#pagetitle a {
+body header#pageheader div h1#pagetitle a {
         text-decoration: none;
 	color: #666;
 }
 
-body header div span#pagenav {
+body header#pageheader div span#pagenav {
 	position: relative;
 	float: right;
 	line-height: 100px;
 	margin: 0px 10px 0px 0px;
 }
 
-body header div span#pagenav a {
+body header#pageheader div span#pagenav a {
 	margin-left: 10px;
 	font-size: 1.5em;
 	text-decoration: none;
