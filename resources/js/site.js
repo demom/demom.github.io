@@ -42,7 +42,7 @@ function loadTenPosts() {
     //alert(i + ": " + converter.makeHtml(items[i]));
     alert(i + ": " + items[i]["title"]);
 
-    $.ajax("/source/" + items[i]["filename"], function (html) {
+    $.ajax("http://demom.github.io/source/" + items[i]["filename"], function (html) {
       $["body"].append(converter.makeHtml(html));
     }, false);    
   }
