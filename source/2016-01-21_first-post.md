@@ -18,4 +18,4 @@ So, once again, welcome to my [Github page](https://demom.github.io).
   * [.NET](https://www.microsoft.com/net/) - Microsofts .NET platform
   * [Swift](https://swift.org) - Apples new open-source programming language
   * [Github](http://github.com) - Github repo
-  * [Showdown](https://github.com/showdownjs/showdown) - Github repo
+  * [Showdown](https://github.com/showdownjs/showdown) - Javascript Markdown to HTML library
