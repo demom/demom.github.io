@@ -1,0 +1,11 @@
+# About me
+
+I’m a Swedish middle-age guy named Tommy. Over the years I’ve managed to collect the complete family set - wife, daughter, son, house, car and a dog.
+
+As a professional software developer and IT consultant, I’m working at a consultant company specializing in network support, automation and monitoring.
+
+While I’m not at my day job I’m probably playing with my kids or socializing with the wife, or perhaps even trying to do some much needed work on our mid-20-century brick house.
+
+All the while I’m always trying new things out, with the newest fad is learning Swift which together with the half-built redundant och load-balancing processing cluster based on Raspberry Pi 2 thats sits in the basement and a very entertaining Playstation 4 takes up most of my spare time.
+
+If you, for whatever reason, want to reach me, you can find be at [twitter](https://twitter.com/d3m0m) or perhaps browse my repos on [Github](https://github.com/demom).
