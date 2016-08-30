@@ -40,11 +40,13 @@ function loadTenPosts() {
   
   for (i = fromPosition; i > toPosition; i--) {
     //alert(i + ": " + converter.makeHtml(items[i]));
-    alert(i + ": " + items[i]["title"]);
+    //alert(i + ": " + items[i]["title"]);
 
-    $.ajax("http://demom.github.io/source/" + items[i]["filename"], function (html) {
-      $["body"].append(converter.makeHtml(html));
-    }, false);    
+    $.ajax({
+      url: "http://demom.github.io/source/" + items[i]["filename"], success: function (html) {
+        $("main").prepend("<article>" + converter.makeHtml(html) + "</article>");
+      }, async: false
+    });    
   }
 
   position = toPosition;
