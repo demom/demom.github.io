@@ -1,6 +1,8 @@
 var items = [];
+var qvars = [];
 var converter = new showdown.Converter()
 var position = -1;
+var openpage = "";
 
 $(document).scroll(function () {
   var y = $(this).scrollTop();
@@ -20,13 +22,28 @@ $(document).scroll(function () {
 });
 
 $(document).ready(function () {
+  getQueryString();
+  
   $.getJSON("source/index.json", function(data) {
     $.each( data, function( key, val ) {
       items.push(val);
     });
-    loadTenPosts();
+
+    if (openpage != "") {
+      loadPost(openpage)
+    } else {
+      loadTenPosts();
+    }
   });
 });
+
+function loadPost(filename) {
+  $.ajax({
+    url: "http://demom.github.io/source/" + filename, success: function (html) {
+      $("main").prepend("<article>" + converter.makeHtml(html) + "</article>");
+    }, async: false
+  });
+}
 
 function loadTenPosts() {
   var fromPosition = position;
@@ -39,15 +56,31 @@ function loadTenPosts() {
   if (toPosition < 0) toPosition = -1;
   
   for (i = fromPosition; i > toPosition; i--) {
-    //alert(i + ": " + converter.makeHtml(items[i]));
-    //alert(i + ": " + items[i]["title"]);
-
-    $.ajax({
-      url: "http://demom.github.io/source/" + items[i]["filename"], success: function (html) {
-        $("main").prepend("<article>" + converter.makeHtml(html) + "</article>");
-      }, async: false
-    });    
+    loadPost(items[i]["filename"]); 
   }
 
   position = toPosition;
+}
+
+function getQueryString() {
+  var q = document.URL.split('?')[1];
+  if(q != undefined){
+    q = q.split('&');
+
+    for(var i = 0; i < q.length; i++){
+      hash = q[i].split('=');
+      if (hash.length > 1) {
+        alert("Multi: " + q[i]);
+        qvars.push(hash[1]);
+        qvars[hash[0]] = hash[1];
+      } else {
+        alert("Single: " + q[i]);
+        openpage = q[i];
+      }
+    }
+
+    return true;
+  }
+
+  return false;
 }
