@@ -70,11 +70,9 @@ function getQueryString() {
     for(var i = 0; i < q.length; i++){
       hash = q[i].split('=');
       if (hash.length > 1) {
-        alert("Multi: " + q[i]);
         qvars.push(hash[1]);
         qvars[hash[0]] = hash[1];
       } else {
-        alert("Single: " + q[i]);
         openpage = q[i];
       }
     }
