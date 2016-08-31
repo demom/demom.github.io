@@ -2,9 +2,9 @@
 
 I’m a Swedish middle-age guy named Tommy. My interest in computers started with a Macintosh SE somewhere around 1989 or so, and my first brushes with programming was using Hypercard on that very machine.
 
-Since the power supply on the Mac went kaputt I made due with a range of Windows machines, from 3.10 up to Windows 10 today. And while introduced in 1999 it took a couple more years until Linux and GNOME became my desktop of choice - started at Slackware and ended up  witbh Ubuntu.
+Since the power supply on the Mac went kaputt I made due with a range of Windows machines, from 3.10 up to Windows 10 today. And while introduced in 1999 it took a couple more years until Linux and GNOME became my desktop of choice - started at Slackware and ended up  with Ubuntu.
 
-A few years back, I got my hands on a Macbook Pro at work, and now I’m once again a loyal Apple user both in my profession as well as privately (although I’m running Windows 10 as a VM for those few tasks that can’t be done on anything else, and I also house a couple of Ubuntu servers in the basement of my house, to power my hobbies).
+A few years back, I got my hands on a Macbook Pro at work, and now I’m once again a loyal Apple user both in my profession as well as privately (although I’m running Windows 10 as a VM for those few tasks, and a couple of Ubuntu servers is still humming along in my basement, to power my hobbies).
 
 My day job is as an IT consultant and software developer at Maintrac AB, a swedish system integrator and consultant firm specializing in tele communications and IT. I mostly work with Microsoft .NET platform, PHP and a lot of SQL, but during those long nights I like trying out new (and old) things in a wide range of hobby projects, for example writing programs in Apples new programming language Swift, or web services and scripts in Python (version 3 of course, everything before it is dead in my eyes). My latest fad is the nosql database RethinkDB.
 
